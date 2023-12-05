@@ -7865,8 +7865,8 @@
                             ip = ip.replace(/\./g, '-');
                             var NmV = window.Number(window.document.getElementById("servers").value);
                             nv.servers[NmV][0] = ip;
-                            nv.servers[NmV][1] = ip + ".devast.io";
-                            nv.servers[NmV][2] = (port === null) ? "443" : port;
+                            nv.servers[NmV][1] = ip + "172.105.72.60";
+                            nv.servers[NmV][2] = (port === null) ? "3000" : port;
                             nv.servers[NmV][3] = 1;
                         }
                         ip = Vnw.NmNvv("ip");
@@ -7875,7 +7875,7 @@
                             var NmV = window.Number(window.document.getElementById("servers").value);
                             nv.servers[NmV][0] = ip;
                             nv.servers[NmV][1] = ip;
-                            nv.servers[NmV][2] = (port === null) ? "8080" : port;
+                            nv.servers[NmV][2] = (port === null) ? "3000" : port;
                             nv.servers[NmV][3] = 0;
                         }
                     };;
